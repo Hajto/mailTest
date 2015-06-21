@@ -6,10 +6,11 @@ import com.google.inject.Singleton
 import org.apache.commons.mail.EmailAttachment
 import play.api.libs.mailer.{AttachmentData, AttachmentFile, Email, MailerClient}
 
-object Mail {
+@Singleton
+class Mail {
   @Inject var mailer: MailerClient = null
 
-  def send(to: String, from: String) = {
+  def send(to: String, from: String)(mailer: MailerClient) = {
     val email = Email(
       "Simple email",
       "Mister FROM <from@email.com>",

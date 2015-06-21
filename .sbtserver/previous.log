@@ -1,5 +1,5 @@
-New log file opened at Sun Jun 21 16:13:47 CEST 2015 by 3706@haito-dev
-jvm 3706@haito-dev
+New log file opened at Sun Jun 21 19:14:01 CEST 2015 by 10389@haito-dev
+jvm 10389@haito-dev
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.45-b02
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-javaagent:/usr/share/java/jayatanaag.jar, -Xms256m, -Xmx1024m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in /home/haito/IdeaProjects/Scala/mailtest/project, returning: (mailtest-build)
 Loading project definition from /home/haito/IdeaProjects/Scala/mailtest/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@a891036, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@35c002c5, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -69,7 +69,7 @@ Set current project to play-scala (in build file:/home/haito/IdeaProjects/Scala/
 > server-handle-next-server-request
 > {file:/home/haito/IdeaProjects/Scala/mailtest/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@6753162a, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@ff305c0, check cycles: false
 Read from stdout: Updating {file:/home/haito/IdeaProjects/Scala/mailtest/}root...
 Updating {file:/home/haito/IdeaProjects/Scala/mailtest/}root...
 Other repositories:
@@ -84,7 +84,7 @@ resolving dependencies for configuration 'compile'
 == resolving dependencies play-scala#play-scala_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
 Read from stdout: Resolving org.scala-lang#scala-library;2.11.6 ...
 Resolving org.scala-lang#scala-library;2.11.6 ...
-sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d9ce709
+sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@701667a1
 sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
 	[2.11.6] org.scala-lang#scala-library;2.11.6
@@ -657,7 +657,7 @@ downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-as
 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (712ms)
+	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (545ms)
 Read from stdout: Resolving com.google.inject.extensions#extensions-parent;4.0 ...
 Resolving com.google.inject.extensions#extensions-parent;4.0 ...
 sbt-chain: Checking cache for: dependency: com.google.inject.extensions#extensions-parent;4.0 {}
@@ -7530,7 +7530,7 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	[NOT REQUIRED] org.scala-sbt#control_2.11;0.13.8-M3!control_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
-:: resolution report :: resolve 6034ms :: artifacts dl 70ms
+:: resolution report :: resolve 6671ms :: artifacts dl 79ms
 	report for play-scala#play-scala_2.11;1.0-SNAPSHOT compile produced in /home/haito/IdeaProjects/Scala/mailtest/target/resolution-cache/reports/play-scala-play-scala_2.11-compile.xml
 	report for play-scala#play-scala_2.11;1.0-SNAPSHOT runtime produced in /home/haito/IdeaProjects/Scala/mailtest/target/resolution-cache/reports/play-scala-play-scala_2.11-runtime.xml
 	report for play-scala#play-scala_2.11;1.0-SNAPSHOT test produced in /home/haito/IdeaProjects/Scala/mailtest/target/resolution-cache/reports/play-scala-play-scala_2.11-test.xml
@@ -7545,27 +7545,27 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	report for play-scala#play-scala_2.11;1.0-SNAPSHOT pom produced in /home/haito/IdeaProjects/Scala/mailtest/target/resolution-cache/reports/play-scala-play-scala_2.11-pom.xml
 	report for play-scala#play-scala_2.11;1.0-SNAPSHOT scala-tool produced in /home/haito/IdeaProjects/Scala/mailtest/target/resolution-cache/reports/play-scala-play-scala_2.11-scala-tool.xml
 	report for play-scala#play-scala_2.11;1.0-SNAPSHOT fork-run produced in /home/haito/IdeaProjects/Scala/mailtest/target/resolution-cache/reports/play-scala-play-scala_2.11-fork-run.xml
-	resolve done (6034ms resolve - 70ms download)
+	resolve done (6671ms resolve - 79ms download)
 Read from stdout: Done updating.
 Done updating.
-Total time: 7 s, completed Jun 21, 2015 4:16:39 PM
+Total time: 7 s, completed Jun 21, 2015 7:30:01 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@344fd3e2, check cycles: false
-Total time: 0 s, completed Jun 21, 2015 4:16:40 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@3c58bb19, check cycles: false
+Total time: 0 s, completed Jun 21, 2015 7:30:02 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/home/haito/IdeaProjects/Scala/mailtest/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@2280a61d, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@45f9d2ac, check cycles: false
 SLF4J: The following set of substitute loggers may have been accessed
 SLF4J: during the initialization phase. Logging calls during this
 SLF4J: phase were not honored. However, subsequent logging calls to these
 SLF4J: loggers will work as normally expected.
 SLF4J: See also http://www.slf4j.org/codes.html#substituteLogger
-SLF4J: org.webjars.CloseQuietly
+SLF4J: org.webjars.WebJarExtractor
 Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
 
 Initial source changes: 
@@ -7587,7 +7587,7 @@ Copy resource mappings:
 	(/home/haito/IdeaProjects/Scala/mailtest/conf/routes,/home/haito/IdeaProjects/Scala/mailtest/target/scala-2.11/classes/routes)
 	(/home/haito/IdeaProjects/Scala/mailtest/conf/logback.xml,/home/haito/IdeaProjects/Scala/mailtest/target/scala-2.11/classes/logback.xml)
 	(/home/haito/IdeaProjects/Scala/mailtest/conf/application.conf,/home/haito/IdeaProjects/Scala/mailtest/target/scala-2.11/classes/application.conf)
-Total time: 1 s, completed Jun 21, 2015 4:16:46 PM
+Total time: 1 s, completed Jun 21, 2015 7:30:16 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
@@ -7596,4 +7596,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 3706@haito-dev logs at Sun Jun 21 16:19:32 CEST 2015, goodbye.
+Closing the 10389@haito-dev logs at Sun Jun 21 19:32:53 CEST 2015, goodbye.
