@@ -1,0 +1,7 @@
+New log file opened at Sun Jun 21 16:19:37 CEST 2015 by 4571@haito-dev
+Taking next connection to: 46566
+New client attempting to connect on port: 37662-46566
+  Address = /127.0.1.1:46566
+This client on port 37662 has uuid 648fb10f-1e30-4369-9f2a-41867a7e76ad configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-648fb10f-1e30-4369-9f2a-41867a7e76ad
+Taking next connection to: 46566

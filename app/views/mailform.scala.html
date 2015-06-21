@@ -1,0 +1,13 @@
+@()
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sender</title>
+    </head>
+    <body>
+        <form method="post" action="@routes.Application.send()">
+            <label for="serviceName">Service Name</label><input type="text" id="serviceName" name="serviceName" />
+            <input type="file" name="file" id="file" />
+        </form>
+    </body>
+</html>
