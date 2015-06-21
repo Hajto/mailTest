@@ -7,15 +7,14 @@ import play.api.libs.ws.WSClient
 import play.api.mvc.{Action, Controller}
 import service.Mail
 
-class Application extends Controller {
+class Application @Inject() (mail: Mail, mailerClient: MailerClient) extends Controller {
   @Inject var ws: WSClient = null
-  var test = new Mail
 
   def index = Action {
     Ok(views.html.mailform())
   }
 
   def send = Action {
-    Ok((test.mailer == null) + " " + (ws == null))
+    Ok((mail.client == null) + " " + mailerClient + " " + (ws == null))
   }
 }

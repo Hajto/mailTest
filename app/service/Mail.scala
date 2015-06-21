@@ -7,10 +7,9 @@ import org.apache.commons.mail.EmailAttachment
 import play.api.libs.mailer.{AttachmentData, AttachmentFile, Email, MailerClient}
 
 @Singleton
-class Mail {
-  @Inject var mailer: MailerClient = null
-
-  def send(to: String, from: String)(mailer: MailerClient) = {
+class Mail @Inject() (mailerClient: MailerClient) {
+  var client = mailerClient
+  def send(to: String, from: String) = {
     val email = Email(
       "Simple email",
       "Mister FROM <from@email.com>",
@@ -25,7 +24,7 @@ class Mail {
       bodyText = Some("A text message"),
       bodyHtml = Some("<html><body><p>An <b>html</b> message</p></body></html>")
     )
-    mailer.send(email)
+    mailerClient.send(email)
 
   }
 }
